@@ -70,7 +70,7 @@ impl ToNodeIterator for HtmlNode {
     fn is_singular(&self) -> bool {
         match self {
             Self::Literal(_) => true,
-            Self::Expression(_) => false
+            Self::Expression(_) => false,
         }
     }
 }
